@@ -14,11 +14,9 @@ jest.mock('@plone/volto/components/theme/Icon/Icon', () => {
     React.createElement('span', { 'data-testid': 'icon', 'data-size': size });
 });
 
-jest.mock(
-  'volto-back-to-top/icons/chevron-up.svg',
-  () => ({ attributes: { xmlns: '', viewBox: '' } }),
-  { virtual: true },
-);
+jest.mock('@plone/volto/registry', () => ({
+  settings: { up_icon_default: 'up' },
+}));
 
 // Browser API setup
 beforeAll(() => {

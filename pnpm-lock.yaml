@@ -28,6 +28,12 @@ importers:
       mrs-developer:
         specifier: ^2.2.0
         version: 2.3.2
+      sass:
+        specifier: ^1
+        version: 1.104.0
+      sass-loader:
+        specifier: ^13
+        version: 13.3.3(sass@1.104.0)(webpack@5.105.4)
       style-loader:
         specifier: 3.3.1
         version: 3.3.1(webpack@5.105.4)
@@ -1268,6 +1274,12 @@ importers:
       release-it:
         specifier: ^19.0.5
         version: 19.2.4(@types/node@22.20.1)(magicast@0.3.5)
+      sass:
+        specifier: ^1
+        version: 1.104.0
+      sass-loader:
+        specifier: ^13
+        version: 13.3.3(sass@1.104.0)(webpack@5.105.4)
       typescript:
         specifier: ^5.7.3
         version: 5.9.3
@@ -5782,6 +5794,7 @@ packages:
   clone-buffer@1.0.0:
     resolution: {integrity: sha512-KLLTJWrvwIP+OPfMn0x2PheDEP20RPUcGXj/ERegTgdmPEZylALQldygiqrPPu8P45uNuPs7ckmReLY6v/iA5g==}
     engines: {node: '>= 0.10'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   clone-response@1.0.3:
     resolution: {integrity: sha512-ROoL94jJH2dUVML2Y/5PEDNaSHgeOdSDicUyS7izcF63G6sTc/FTjLub4b8Il9S8S0beOfYt0TaA5qvFK+w0wA==}
@@ -11797,6 +11810,25 @@ packages:
       node-sass:
         optional: true
       sass:
+        optional: true
+
+  sass-loader@13.3.3:
+    resolution: {integrity: sha512-mt5YN2F1MOZr3d/wBRcZxeFgwgkH44wVc2zohO2YF6JiOMkiXe4BYRZpSu2sO1g71mo/j16txzUhsKZlqjVGzA==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      fibers: '>= 3.1.0'
+      node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+      sass: ^1.3.0
+      sass-embedded: '*'
+      webpack: ^5.0.0
+    peerDependenciesMeta:
+      fibers:
+        optional: true
+      node-sass:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
         optional: true
 
   sass@1.104.0:
@@ -26726,6 +26758,13 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       semver: 7.8.5
+      webpack: 5.105.4
+    optionalDependencies:
+      sass: 1.104.0
+
+  sass-loader@13.3.3(sass@1.104.0)(webpack@5.105.4):
+    dependencies:
+      neo-async: 2.6.2
       webpack: 5.105.4
     optionalDependencies:
       sass: 1.104.0

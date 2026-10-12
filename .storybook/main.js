@@ -89,7 +89,7 @@ module.exports = {
           },
         },
         {
-          loader: require.resolve("scss-loader"),
+          loader: require.resolve("sass-loader"),
           options: {
             additionalData: `
         @use "~@plone/volto/src/styles/exports.scss" as theme;

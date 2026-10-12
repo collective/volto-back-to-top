@@ -40,6 +40,8 @@
   "devDependencies": {
     "css-loader": "5.2.7",
     "mrs-developer": "^2.2.0",
+    "sass": "^1",
+    "sass-loader": "^13",
     "style-loader": "3.3.1"
   },
   "pnpm": {

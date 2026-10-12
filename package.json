@@ -1,7 +1,7 @@
 {
   "name": "volto-back-to-top-dev",
   "version": "1.0.0-alpha.0",
-  "description": "A new add-on for Volto to support the Back to top Button",
+  "description": "A new add-on for Volto that include a button to go back to the top when you scroll down the page",
   "author": "Leonardo J. Caballero G.",
   "homepage": "https://github.com/macagua/volto-back-to-top",
   "license": "MIT",

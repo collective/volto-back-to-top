@@ -1,7 +1,7 @@
 {
   "name": "volto-back-to-top",
   "version": "1.0.0-alpha.0",
-  "description": "A new add-on for Volto to support the Back to top button",
+  "description": "A new add-on for Volto that include a button to go back to the top when you scroll down the page",
   "main": "src/index.ts",
   "license": "MIT",
   "keywords": [

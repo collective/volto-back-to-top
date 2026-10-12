@@ -6,7 +6,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
-import upSVG from 'volto-back-to-top/icons/chevron-up.svg';
+import config from '@plone/volto/registry';
 
 const messages = defineMessages({
   backToTop: {
@@ -22,6 +22,7 @@ const BackToTop = () => {
   const rafRef = useRef(null);
   const buttonRef = useRef(null);
   const intl = useIntl();
+  const settings = config.settings || {};
 
   useEffect(() => {
     const getProgress = () => {
@@ -93,7 +94,9 @@ const BackToTop = () => {
           pathLength="100"
         />
       </svg>
-      <Icon name={upSVG} size="24px" />
+      {settings.up_icon_default && (
+        <Icon name={settings.up_icon_default} size="24px" />
+      )}
     </button>
   );
 };

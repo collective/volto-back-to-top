@@ -96,6 +96,23 @@ Start `Volto` with:
 make start
 ```
 
+## Settings it
+
+For use this add-on, you need to configure the following in the `settings.ts` file:
+
+- `up_icon_default`: Up Icon default settings.
+
+Example:
+
+```javascript
+import upSVG from '@plone/volto/icons/up.svg';
+
+export default function install(config) {
+  config.settings.up_icon_default = upSVG;
+  return config;
+}
+```
+
 ## Test installation
 
 Visit http://localhost:3000/ in a browser, and check the _Back to top_ button into the pages.

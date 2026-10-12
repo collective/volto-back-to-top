@@ -192,7 +192,23 @@ module.exports = {
       .getAddons()
       .map((addon) => fs.realpathSync(addon.modulePath));
 
-    resultConfig.module.rules[13].exclude = (input) =>
+    const babelRule = resultConfig.module.rules.find(
+      (r) =>
+        r &&
+        r.test &&
+        r.test.test?.('x.jsx') &&
+        JSON.stringify(r.use ?? r.loader ?? '').includes('babel-loader'),
+    );
+    if (!babelRule)
+      throw new Error('babel-loader rule not found in webpack config');
+
+    const existingInclude = babelRule.include
+      ? Array.isArray(babelRule.include)
+        ? babelRule.include
+        : [babelRule.include]
+      : [];
+
+    babelRule.exclude = (input) =>
       // exclude every input from node_modules except from @plone/volto
       /node_modules\/(?!(@plone\/volto)\/)/.test(input) &&
       // Storybook default exclusions
@@ -201,11 +217,7 @@ module.exports = {
       // If input is in an addon, DON'T exclude it
       !addonPaths.some((p) => input.includes(p));
 
-    resultConfig.module.rules[13].include = [
-      /preview\.jsx/,
-      ...resultConfig.module.rules[13].include,
-      ...addonPaths,
-    ];
+    babelRule.include = [/preview\.jsx/, ...existingInclude, ...addonPaths];
 
     const addonExtenders = registry.getAddonExtenders().map((m) => require(m));
 

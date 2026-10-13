@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/volto-back-to-top)](https://www.npmjs.com/package/volto-back-to-top
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://macagua.github.io/volto-back-to-top
-[![CI](https://github.com/macagua/volto-back-to-toporkflows/main.yml/badge.svg)](https://github.com/macagua/volto-back-to-toporkflows/main.yml)
+[![CI](https://github.com/collective/volto-back-to-toporkflows/main.yml/badge.svg)](https://github.com/collective/volto-back-to-toptoporkflows/main.yml)
 
 A new add-on for `Volto` that include a button to go back to the top when you scroll down the page.
 
@@ -22,7 +22,7 @@ It provides a simple way to access to `Back to Top` features such as:
 
 This `Volto` component looks like this:
 
-![Back to top button](https://raw.githubusercontent.com/macagua/volto-back-to-top/refs/heads/main/docs/docs/source/images/back_to_top_button.png)
+![Back to top button](https://raw.githubusercontent.com/collective/volto-back-to-top/refs/heads/main/docs/docs/source/images/back_to_top_button.png)
 
 ---
 
@@ -67,8 +67,8 @@ If you trying to install from `GitHub` you need edit the `mrs.developer.json` fi
     "develop": true,
     "output": "./packages/",
     "package": "volto-back-to-top",
-    "url": "git@github.com:macagua/volto-back-to-top.git",
-    "https": "https://github.com/macagua/volto-back-to-top.git",
+    "url": "git@github.com:collective/volto-back-to-top.git",
+    "https": "https://github.com/collective/volto-back-to-top.git",
     "branch": "main"
   }
 }
@@ -146,7 +146,7 @@ For this reason, it only works with pnpm and `Volto` 18 (currently in alpha).
 1. Clone this repository, then change your working directory.
 
     ```shell
-    git clone git@github.com:macagua/volto-back-to-top.git
+    git clone git@github.com:collective/volto-back-to-top.git
     cd volto-back-to-top
     ```
 
@@ -275,7 +275,7 @@ Developed with the support of:
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
   <!-- markdownlint-disable MD033 -->
-  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/macagua/volto-back-to-top/refs/heads/main/docs/docs/source/images/imd-ayto-logo.svg">
+  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/volto-back-to-top/refs/heads/main/docs/docs/source/images/imd-ayto-logo.svg">
   <!-- markdownlint-enable MD033 -->
 
 ### Acknowledgements 🙏

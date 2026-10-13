@@ -11,10 +11,10 @@
     "react"
   ],
   "author": "Leonardo J. Caballero G.",
-  "homepage": "https://github.com/macagua/volto-back-to-top#readme",
+  "homepage": "https://github.com/collective/volto-back-to-top#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:macagua/volto-back-to-top"
+    "url": "git@github.com:collective/volto-back-to-top"
   },
   "publishConfig": {
     "access": "public"

@@ -29,7 +29,7 @@
   }
 
   &:hover {
-    background-color: #a7c5cc;
+    background-color: #a7aecc;
   }
 
   &:focus-visible {
@@ -70,7 +70,7 @@
 
     .ring-progress {
       fill: none;
-      stroke: #017db9;
+      stroke: #021322;
       stroke-dasharray: 100;
       stroke-dashoffset: calc(100 - var(--progress, 0) * 100);
       stroke-linecap: round;

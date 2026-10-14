@@ -1,0 +1,1 @@
+Add Galician translation for this add-on

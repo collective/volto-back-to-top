@@ -1,0 +1,1 @@
+Add Catalan translation for this add-on

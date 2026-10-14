@@ -16,13 +16,15 @@ It provides a simple way to access to `Back to Top` features such as:
 
 - A progress bar included in the button that visually indicates how much you've scrolled.
 
+- Adds the option to customise the button icon via settings.
+
 ## Screenshots
 
 ### Back to top button
 
 This `Volto` component looks like this:
 
-![Back to top button](https://raw.githubusercontent.com/collective/volto-back-to-top/refs/heads/main/docs/docs/source/images/back_to_top_button.png)
+![Back to top button](https://raw.githubusercontent.com/collective/volto-back-to-top/refs/heads/main/docs/docs/source/images/back_to_top_button.gif)
 
 ---
 

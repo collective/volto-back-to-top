@@ -117,10 +117,22 @@ For use this add-on, you need to configure the following in the `settings.ts` fi
 Example:
 
 ```javascript
-import upSVG from '@plone/volto/icons/up.svg';
+import type { ConfigType } from '@plone/registry';
+import upKeySVG from '@plone/volto/icons/up-key.svg';
+import { BackToTop } from 'volto-back-to-top/components/BackToTop';
 
-export default function install(config) {
-  config.settings.up_icon_default = upSVG;
+export default function install(config: ConfigType) {
+  // Up Icon custom default settings
+  config.settings.up_icon_default = upKeySVG;
+  // Register BackToTop component in appExtras
+  config.settings.appExtras = [
+    ...(config.settings.appExtras || []),
+    {
+      match: '',
+      component: BackToTop,
+      props: {},
+    },
+  ];
   return config;
 }
 ```

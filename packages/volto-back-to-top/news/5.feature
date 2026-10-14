@@ -1,0 +1,1 @@
+Add Spanish translation for this add-on

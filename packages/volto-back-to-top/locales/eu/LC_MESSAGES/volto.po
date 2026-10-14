@@ -21,4 +21,4 @@ msgstr ""
 #. Default: "Back to top"
 #: components/BackToTop/BackToTop
 msgid "Back to top"
-msgstr ""
+msgstr "Goialdera itzuli"

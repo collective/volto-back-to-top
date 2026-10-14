@@ -1,8 +1,8 @@
 # Back to Top (volto-back-to-top)
 
-[![npm](https://img.shields.io/npm/v/volto-back-to-top)](https://www.npmjs.com/package/volto-back-to-top
-[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://macagua.github.io/volto-back-to-top
-[![CI](https://github.com/collective/volto-back-to-toporkflows/main.yml/badge.svg)](https://github.com/collective/volto-back-to-toptoporkflows/main.yml)
+[![npm](https://img.shields.io/npm/v/volto-back-to-top)](https://www.npmjs.com/package/volto-back-to-top)
+[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://github.com/collective/volto-back-to-top#back-to-top-button)
+[![Main CI](https://github.com/collective/volto-back-to-top/actions/workflows/main.yml/badge.svg)](https://github.com/collective/volto-back-to-top/actions/workflows/main.yml)
 
 A new add-on for `Volto` that include a button to go back to the top when you scroll down the page.
 
@@ -16,7 +16,7 @@ It provides a simple way to access to `Back to Top` features such as:
 
 - A progress bar with in a circular pattern included in the button that visually indicates how much you've scrolled.
 
-- Adds the option to customise the button icon via [settings](#settings-it).
+- Adds the option to customise the button icon via [settings](https://github.com/collective/volto-back-to-top#settings-it).
 
 ## Screenshots
 
@@ -25,6 +25,8 @@ It provides a simple way to access to `Back to Top` features such as:
 This `Volto` component looks like this:
 
 ![Back to top button](https://raw.githubusercontent.com/collective/volto-back-to-top/refs/heads/main/docs/docs/source/images/back_to_top_button.gif)
+
+You can run and the [Storybook](https://github.com/collective/volto-back-to-top#run-storybook-server) for this add-on.
 
 ---
 

@@ -12,11 +12,11 @@ It provides a simple way to access to `Back to Top` features such as:
 
 <!-- List your awesome features here -->
 
-- A button to go back to the top when you scroll down the page.
+- A button to Scroll To Top when you scroll down the page.
 
-- A progress bar included in the button that visually indicates how much you've scrolled.
+- A progress bar with in a circular pattern included in the button that visually indicates how much you've scrolled.
 
-- Adds the option to customise the button icon via settings.
+- Adds the option to customise the button icon via [settings](#settings-it).
 
 ## Screenshots
 
